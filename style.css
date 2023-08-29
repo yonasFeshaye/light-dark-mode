@@ -95,7 +95,7 @@ a:focus {
     display: flex;
 }
 .image-container {
-    border: 10x solid var(--secondary-color);
+    border: 10x solid var(---secondary-color);
     border-radius: 10px;
     padding: 10px 20px;
     margin-right: 25px;
