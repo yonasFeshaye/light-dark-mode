@@ -94,14 +94,16 @@ a:focus {
 .about-container {
     display: flex;
 }
+
 .image-container {
-    border: 10x solid var(---secondary-color);
+    border: 10px solid var(---secondary-color);
     border-radius: 10px;
     padding: 10px 20px;
     margin-right: 25px;
     width: auto;
     background: var(--background);
     box-shadow: var(--box-shadow);
+
 }
 
 img {
@@ -110,7 +112,7 @@ img {
 }
 
 /* Projects Section */
-.button {
+.buttons {
     margin-top: 15px;
     margin-bottom: 50px;
 }
@@ -180,9 +182,10 @@ p {
 .contact {
     display: flex;
     align-items: center;
-    
+
 
 }
+
 .fa-brands {
     font-size: 100px;
     margin-right: 50px;
@@ -208,18 +211,21 @@ p {
     margin-right: 10px;
     font-size: 1rem;
 }
+
 .toggle-text {
     position: relative;
     top: -4px;
     right: 5px;
     color: var(--on-background);
 }
+
 .theme-switch {
     display: inline-block;
     height: 34px;
     position: relative;
     width: 60px;
 }
+
 .theme-switch input {
     display: none;
 }
@@ -246,21 +252,23 @@ p {
     width: 26px;
 }
 
-input:checked + .slider {
+input:checked+.slider {
     background: var(--primary-color);
 }
 
-input:checked + .slider::before {
+input:checked+.slider::before {
     transform: translateX(26px);
 }
+
 .slider.round {
     border-radius: 34px;
 }
+
 .slider.round::before {
     border-radius: 50%;
 }
+
 .fas {
     font-size: 30px;
     margin-right: 5px;
 }
-
